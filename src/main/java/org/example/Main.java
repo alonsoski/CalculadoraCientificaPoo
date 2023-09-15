@@ -3,8 +3,6 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
-
-
     }
 
     private static void operacionesBasicas() {
@@ -85,6 +83,4 @@ public class Main {
         }
         return numero;
     }
-
-    
 }
