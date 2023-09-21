@@ -13,16 +13,13 @@ public class Main {
         while (eleccion<1 || eleccion>10){
             System.out.println("que quieres hacer??");
             System.out.println("1.-Cuatro operaciones aritmeticas basicas");
-            System.out.println("2.-Mayor de dos numeros");
-            System.out.println("3.-Menor de dos numeros");
-            System.out.println("4.-Potencia de un numero");
-            System.out.println("5.-Porcentaje de un numero");
-            System.out.println("6.- Calcular las soluciones x1 y x2 de una ecuación cuadrática de la forma: Ax2 + Bx + C = 0");
-            System.out.println("7.-Perímetros, áreas y volúmenes");
-            System.out.println("8.-Calcular la solución (x,y) de un sistema de 2 ecuaciones y 2 incógnitas, de la forma: Ax + By = C|Dx + Ey = F ");
-            System.out.println("9.-Calcular la ecuación de una recta de la forma: Y = mX + b, dados 2 puntos de la recta (x1,y1) (x2,y2) ");
-            System.out.println("10.-Salir");
-            eleccion=elegir(10);
+            //System.out.println("2.-Mayor de dos numeros");System.out.println("3.-Menor de dos numeros");System.out.println("4.-Potencia de un numero");System.out.println("5.-Porcentaje de un numero");
+            System.out.println("2.- Calcular las soluciones x1 y x2 de una ecuación cuadrática de la forma: Ax2 + Bx + C = 0");
+            System.out.println("3.-Figuras Geometricas");
+            System.out.println("4.-Calcular la solución (x,y) de un sistema de 2 ecuaciones y 2 incógnitas, de la forma: Ax + By = C|Dx + Ey = F ");
+            System.out.println("5.-Calcular la ecuación de una recta de la forma: Y = mX + b, dados 2 puntos de la recta (x1,y1) (x2,y2) ");
+            System.out.println("6.-Salir");
+            eleccion=elegir(6);
         }
         switcHMenu(eleccion);
     }
@@ -32,37 +29,15 @@ public class Main {
                 operacionesBasicas();
                 break;
             case 2:
-                //mayor de
-                System.out.println(mayorDe(validacionCaracter("primer numero"),validacionCaracter("segundo numero")));
-                menu();
                 break;
             case 3:
-                //menor de
-                System.out.println(menorDe(validacionCaracter("primer numero"),validacionCaracter("segundo numero")));
-                menu();
-                break;
-            case 4:
-                //potencia
-                System.out.println(elevar(validacionCaracter("Base"),validacionCaracter("Potencia")));
-                menu();
-                break;
-            case 5:
-                //porcentaje
-                System.out.println(porcentaje(validacionCaracter("numero"),validacionCaracter("porcentaje")));
-                menu();
-                break;
-            case 6:
-
-                break;
-            case 7:
                 PerArVol();
                 break;
-            case 8:
+            case 4:
                 break;
-            case 9:
-
+            case 5:
                 break;
-            case 10:
+            case 6:
                 System.out.println("ok, Adios");
                 break;
         }
