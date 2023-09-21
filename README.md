@@ -1,5 +1,5 @@
 # CalculadoraCientificaPoo
-Jose alonso queda a cargo de:\n
--Calcular 4 operaciones aritmeticas basicas.\n
--Mayor y menor de dos numeros.\n
--Item c de la tarea(Integrar todos los metodos en un archivo).
+Jose alonso queda a cargo de:...
+...-Calcular 4 operaciones aritmeticas basicas. ...
+...-Mayor y menor de dos numeros. ...
+...-Item c de la tarea(Integrar todos los metodos en un archivo).
